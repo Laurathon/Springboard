@@ -1,0 +1,5 @@
+ES2015: const PI =3.14;
+difference between var and let: cannot redeclare let. Let is block scoped
+difference between van and const cannot redeclare const, const is block scoped, cannot reassign const
+difference between let and const: const cannot be reassigned
+what is hoisting? the variable declaration is processed before the variable is assigned. var and functions are hoisted.

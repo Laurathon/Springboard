@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="movies.css"/>
+  <title>Movies</title>
+</head>
+<body>
+  <form action="" id ="movie">
+      <div class="row mb-5">
+      <div class="col-sm-4 titles">
+        Movie Title
+        <input class="form-control" type="text" placeholder="Enter Movie Title Here" id="title" >
+      </div>
+      <div class="col-sm-4 titles">
+        Give Movie a Rating  
+        <input class="form-control" type="number" min="0" max="10" value ="5" placeholder="Enter Movie Rating" id="rating">
+      </div>
+      <button class ="addMovie">Add Movie</button>
+    </div>
+  </form>
+  <section class="movie-list">
+    <ul></ul>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+  <script src ="app.js"></script>
+</body>
+</html>

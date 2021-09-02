@@ -1,0 +1,25 @@
+Part one:
+http: hypertext transfer protocol used to communicate or send data over the internet
+
+url:uniform resource locater: known as a type of web address.
+
+dns:domain name system; Maps website(domain) names to ip addresses or maps groups of servers to ip addresses
+
+query string: appended to end of a request after a ?. It can depict anything from parameter names or types of data
+
+What are two HTTP verbs and how are they different? post, get, delete, put are some. a get request does not change data, a post request can change data, etc
+
+http request: a client (browser) sends data to a server(host) to request information
+
+http response: host computer sends data back to client
+
+http header..give examples of some request and response headers   -get postman-echo.com  
+
+processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+browser uses dns to get an address of some
+browswer sends request along with any headers
+server sends response back
+browser interprets response, creates a domain
+browser loads resourses associated with request such as...
+
+loads document, runs two js script files, loads more doctuments, etc

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Giphy Party!</title>
+  </head>
+
+  <body>
+    <h1>Giphy Party</h1>
+    <div class="flexbox">
+      <form id="giphy">
+        <input
+          type="text"
+          id="search"
+          name="search"
+          placeholder="Search Term"
+        />
+        <input type="submit" id="submitButton" value="Search for a gif" />
+        <button id="delete">Clear Screen</button>
+      </form>
+    </div>
+    <h3>-</h3>
+    <section id="giphyArea"></section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

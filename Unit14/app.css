@@ -1,0 +1,43 @@
+body {
+  background-color: azure;
+}
+h1 {
+  font-size: 3rem;
+  color: darkcyan;
+  text-align: center;
+}
+button {
+  background-color: rgb(230, 62, 62);
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 3px;
+}
+input[type="submit"] {
+  color: white;
+  background-color: rgb(14, 141, 52);
+  border-radius: 4px;
+  padding: 5px;
+  margin: 3px;
+}
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+.img {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+h3 {
+  background-color: darkcyan;
+  color: ghostwhite;
+  height: 1px;
+}
+s
